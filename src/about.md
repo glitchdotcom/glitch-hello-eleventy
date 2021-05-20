@@ -6,8 +6,8 @@ layout: layouts/page.njk
 
 Here you can write some details about you and your new blog: 
 
-- 🎉 Detail one
-- 💥 Detail two
-- 🌈 Detail three
+- 🎉 I love blogging
+- 💥 I built this site using [Eleventy](https://www.11ty.dev/) on [Glitch](https://glitch.com/)
+- 🌈 Thanks for reading!
 
-Built with [Eleventy](https://www.11ty.dev/) on [Glitch](https://glitch.com/).
+You can also make your project available for other people to remix in Glitch! 🎏✨
