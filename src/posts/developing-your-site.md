@@ -9,7 +9,7 @@ layout: layouts/post.njk
 
 The Eleventy ecosystem is *huge*! There are [official and community](https://www.11ty.dev/docs/starter/) starters for almost any Glitch project you can dream up.
 
-The best part is, no matter what starter you use, as long as you set your eleventy app to *generated static site*, you'll be able to take advantage of the feature on Glitch!
+The best part is, no matter what starter you use, as long as you set your eleventy app to [generated static site](https://help.glitch.com/kb/article/111-what-is-eleventy-11ty-and-how-can-i-use-it-on-glitch/), you'll be able to take advantage of the feature on Glitch!
 
 * Right now, your site is **live on the web**, with a real URL (a secure HTTPS address 🔒) that updates as soon as you make changes to your site or app.
 
