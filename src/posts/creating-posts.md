@@ -1,31 +1,42 @@
 ---
 title: It's time to write some posts
-description: Eleventy makes it really easy to create a blog
+description: Add posts and your site build will publish them
 date: 2021-03-10
 tags:
   - posts
 layout: layouts/post.njk
 ---
 
-This is a standard Eleventy blog post, written entirely in Markdown. (Don't know Markdown? Here are [some tips](https://www.markdownguide.org/cheat-sheet/).) With Glitch, you can edit Markdown right in the editor, and this page will update as you type. 
+The body of your posts will be in Markdown. With Glitch, you can edit Markdown right in the editor, and the preview will update as you type. While you work you can switch between editing Markdown and seeing a preview of your formatted text by toggling the __Markdown__ button just above the editor window.
 
-Want to switch between editing Markdown and seeing a preview of your formatted text? Click on the "Markdown" button just above this editor window.
+> 💡 Are the live updates to your site distracting you while you write or work? Go to the project menu in the top-left of your Glitch editor, and uncheck the box for **Refresh App on Changes**.
 
-* **Try this**: Are the live updates to your site distracting you while you write or work? Go to the project menu in the top-left of your Glitch editor, and uncheck the box for "Refresh App on Changes"
+### Post metadata
 
-### Post Metadata
+Above the content of your posts, you'll include front matter that tells Eleventy about details like the title and date.
 
-In addition to the text of your blog post, there's some metadata that tells Eleventy about things like the title and date of your post. That's stored in a "front matter block" at the top of the markdown file, which looks like this. You'll figure it out, no problem.
+Any values you include in the front matter are accessible in the template (e.g. `_includes/layouts/post.njk`). The template can build this data into the HTML page along with your post content.
+
+### Add a post!
+
+Click the three little dots next to the `/posts` folder in Glitch and add a new file, naming it `my-first-post.md`.
+
+Add the following content to your new post, including the front matter and one line of text content:
 
 ```
 ---
-title: Your First Blog Post
-description: Eleventy makes it really easy to create a blog
-date: 2021-03-17
+title: My First Blog Post
+description: Writing my first post on my new Eleventy blog
+date: 2021-03-20
 tags:
   - posts
 layout: layouts/post.njk
 ---
+
+OMG this is my first post!
+
 ```
 
-This allows you to attach details to your blog posts, that your templates (`layouts/post.njk`) can read.
+Go to Posts or Home to see your new post added, and open it to see how the content appears, then come back here to __It's time to write some posts__!
+
+You might have noticed that your new post was added at the end of the list–we'll change that soon.

@@ -1,27 +1,32 @@
-# Hello Eleventy
+# Hello Eleventy!
 
-[Eleventy](https://www.11ty.dev/) is a simple static site generator. That means you get all the power of a server-side framework but it builds plain HTML files. 
+This project is a blog powered by [Eleventy](https://www.11ty.dev/), a lightweight static site generator. That means you get all the power of a server-side framework but it builds plain HTML files for fast loading by your visitors. This project includes some default posts and layouts you can use as a foundation, and you can customize how your site builds in the JavaScript code. 📚
 
-While you're working in the editor your changes will happen 🪄 immediately in the preview window. As you code the site is serving files from a local build directory. When you close the editor your site will run a `build` script then serve the output as a fast and always-on static site.
+_While you're working on the content in the editor your changes will happen 🪄 immediately in the preview window. As you code the site is serving files from a local build directory. When you close the editor your site will run a `build` script then serve the output as a fast and always-on static site. If you make changes to the code and want to see them straight away while you're working, open the __Terminal__ and enter `refresh` then reload your preview._
 
 ## What's in this project?
 
 ← `README.md`: That’s this file, where you can tell people what your cool website does and how you built it.
 
-← `public/index.css`: The styling rules for your pages and posts.
+← `public/style.css`: The styling rules for your pages and posts.
+
+← `.eleventy.js`: Here you can configure how Eleventy builds your content into the site. Read through the initial blog posts in the site for steps on extending this code.
 
 ← `src/`: This folder contains all the files Eleventy will use to build your site.
 
 ### Working in the `src/` folder 📁
 
-← `src/index.md`, `src/posts.md`, `src/about.md`: These Markdown files are the content for your Home, Posts, and About pages.
+← `index.md`, `posts.md`, `about.md`: These Markdown files include the content for your Home, Posts, and About pages.
 
-← `src/posts/`: These are the Markdown files for the posts that make up your blog.
+← `posts/`: These are the Markdown files for the posts that make up your blog–you can add new posts here and remove any you don't want. Each one includes front matter that Eleventy uses to build the content into the site, passing the data into the template referenced as `layout` at the top of the file.
 
-← `src/seo.json`: When you're ready to share your new site or add a custom domain, change SEO/meta settings in here.
+← `_includes/layouts/`: This is where all of your page level layouts go. The **\_** tells you that this is an _eleventy only_ folder. Each layout uses [Nunjucks](https://mozilla.github.io/nunjucks/templating.html) to build the page or post data into an HTML page. There is one base layout that all others extend.
 
-← `src/_includes`: This is where all of your page level layouts go. The **\_** tells you that this is an _eleventy only_ folder.
+← `seo.json`: When you're ready to share your new site or add a custom domain, change SEO/meta settings in here.
 
+## Next steps 🚀
+
+With the site preview open on the right and the Glitch editor open on the left, navigate through the initial blog posts to learn more and carry out some development on your Eleventy site!
 
 ![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
 

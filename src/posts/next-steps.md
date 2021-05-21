@@ -1,18 +1,35 @@
 ---
 title: Next Steps
-description: What could you build on top of this?
-date: 2021-03-18
+description: Alter your site config
+date: 2021-03-13
 tags:
   - posts
 layout: layouts/post.njk
 ---
 
-The Eleventy ecosystem is *huge*! There are [official and community](https://www.11ty.dev/docs/starter/) starters for almost any glitch project you can dream up.
+Earlier you added a new post and it appeared at the end of the list–if you're keeping a blog you probably want newer posts to appear first! Let's tweak the Eleventy config and use this to learn how you can customize your site build.
 
-The best part is, no matter what starter you use, as long as you set your eleventy app to *generated static site*, you'll be able to take advantage of the feature on Glitch! (someone plz rewrite this)
+### Change the order of posts
 
-https://www.11ty.dev/docs/plugins/ - also there are plugins, you could put them into this project
+Open any of the blog posts in `/posts`. In the front matter, each one has a `date` property we can use to specify the order posts appear in the site.
 
-Some next steps you could consider in this project:
-* Add a UI library like tailwind
-* Use the eleventy image library to optimize your blog images
+Take a look in `.eleventy.js`–there's some config in there that determines how your site builds and functions. Scroll down to the section that starts `eleventyConfig.addCollection`. This is where the site builds the collection of blog posts your users will be able to navigate and read.
+
+The first line inside the function creates the collection of posts by filtering on the "posts" tag included in each one:
+
+```
+const coll = collection
+      .getFilteredByTag("posts");
+```
+
+Extend this line to sort the posts using the `date` property in the front matter:
+
+```
+const coll = collection
+      .getFilteredByTag("posts")
+      .sort((a, b) => b.data.date - a.data.date);
+```
+
+The rest of the code in the function sets the posts up to point to each other so that the reader can progress through them.
+
+You can force your site to rebuild by opening the __Terminal__ and entering `refresh` then reloading the preview–but before you do that a word of caution: __your site posts will reverse in order so that most recent is first, so make sure you remember to read "Developing your site" for more tips! 🙈__
