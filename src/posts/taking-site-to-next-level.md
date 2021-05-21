@@ -1,5 +1,5 @@
 ---
-title: Developing your site
+title: Taking your site to the next level
 description: What can you build on top of this?
 date: 2021-03-18
 tags:
