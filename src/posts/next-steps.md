@@ -32,4 +32,4 @@ const coll = collection
 
 The rest of the code in the function sets the posts up to point to each other so that the reader can progress through them.
 
-You can force your site to rebuild by opening the __Terminal__ and entering `refresh` then reloading the preview–but before you do that a word of caution: __your site posts will reverse in order so that most recent is first, so make sure you remember to read "Developing your site" for more tips! 🙈__
+Take a look at the Home or Posts page in the preview–but before you do that a word of caution: ⚠️ __your site posts will reverse in order so that most recent is first, so make sure you remember to read "Taking your site to the next level" for more tips!__
