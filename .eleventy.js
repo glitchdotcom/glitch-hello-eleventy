@@ -53,7 +53,7 @@ module.exports = function(eleventyConfig) {
        - https://www.11ty.dev/docs/collections/
     */
     
-    // Extend here with code from Next Steps page to reverse chronological order
+    // EDIT HERE WITH THE CODE FROM THE NEXT STEPS PAGE TO REVERSE CHRONOLOGICAL ORDER
     // (inspired by https://github.com/11ty/eleventy/issues/898#issuecomment-581738415)
     const coll = collection
       .getFilteredByTag("posts");

@@ -30,7 +30,7 @@ You'll get best use out of this project if you're familiar with basic HTML and J
 
 ___Want a basic template version of this project to build your own Eleventy app? Check out [Minimal Eleventy](https://glitch.com/edit/#!/remix/11ty)!___
 
-## Next steps 🚀
+## Try this next 🏗️
 
 With the site preview open on the right and the Glitch editor open on the left, navigate through the initial blog posts to learn more and carry out some development on your Eleventy site!
 
