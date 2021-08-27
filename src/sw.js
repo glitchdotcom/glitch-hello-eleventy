@@ -26,7 +26,7 @@ try {
           .then(function(response) {
             // In case we don't have this in cache let's add it
             cache.put(event.request, response.clone()).catch(putErr => {
-              // Sometimes we get temp method type errors during the 11ty build process
+              // Sometimes we get temp method type errors during the build process
               console.log(putErr);
             });
             return response;
@@ -42,6 +42,6 @@ try {
     );
   });
 } catch (error) {
-  // Catch any errors we encounter during the 11ty build process
+  // Catch any errors we encounter during the build process
   console.log(error);
 }
