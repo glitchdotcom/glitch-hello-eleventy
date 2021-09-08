@@ -1,7 +1,7 @@
 {
   "name": "Hello Eleventy",
   "short_name": "Hello Eleventy",
-  "description": "Build a new Eleventy blog on Glitch",
+  "description": "Build a new Eleventy blog on Glitch!",
   "icons": [
     {
       "sizes": "287x287",
