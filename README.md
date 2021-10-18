@@ -16,8 +16,6 @@ You'll get best use out of this project if you're familiar with basic HTML and J
 
 ← `.eleventy.js`: Here you can configure how Eleventy builds your content into the site. Read through the initial blog posts in the site for steps on extending this code.
 
-← `manifest.json`: The manifest allows the site to function as a PWA (Progressive Web App), specifying metadata that determines how the app will appear and behave natively when installed on the user device.
-
 ← `src/`: This folder contains all the files Eleventy will use to build your site.
 
 ### Working in the `src/` folder 📁
@@ -29,8 +27,6 @@ You'll get best use out of this project if you're familiar with basic HTML and J
 ← `_includes/layouts/`: This is where all of your page level layouts go. The **\_** tells you that this is an _eleventy only_ folder. Each layout uses [Nunjucks](https://mozilla.github.io/nunjucks/templating.html) to build the page or post data into an HTML page. There is one base layout that all others extend.
 
 ← `seo.json`: When you're ready to share your new site or add a custom domain, change SEO/meta settings in here.
-
-← `sw.js`: The Service Worker JavaScript sets the app up to cache content for fast delivery as a PWA. We enclose the code in error handling blocks because your site may generate temporary errors during the build process, before it's deployed.
 
 ___Want a basic template version of this project to build your own Eleventy app? Check out [Minimal Eleventy](https://glitch.com/edit/#!/remix/11ty)!___
 
