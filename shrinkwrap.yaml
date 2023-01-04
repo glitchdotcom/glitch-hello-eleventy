@@ -1,6 +1,6 @@
 dependencies:
   eleventy-plugin-seo: 0.5.2
-  luxon: 3.1.1
+  luxon: 3.2.0
 devDependencies:
   '@11ty/eleventy': 1.0.2
 packages:
@@ -1289,12 +1289,12 @@ packages:
       node: '>=12'
     resolution:
       integrity: sha512-IDkEPB80Rb6gCAU+FEib0t4FeJ4uVOuX1CQ9GsvU3O+JAGIgu0J7sf1OarXKaKDygTZIoJyU6YdZzTFRu+YR0A==
-  /luxon/3.1.1:
+  /luxon/3.2.0:
     dev: false
     engines:
       node: '>=12'
     resolution:
-      integrity: sha512-Ah6DloGmvseB/pX1cAmjbFvyU/pKuwQMQqz7d0yvuDlVYLTs2WeDHQMpC8tGjm1da+BriHROW/OEIT/KfYg6xw==
+      integrity: sha512-Namj3XqoJjFekq/JHQEaaAv4zyE/fyyDBrMEBnIL2s/X54SC8W5Ea0uej1TRXUArWec8OojsAVsGBYhNRjpMVw==
   /markdown-it/12.3.2:
     dependencies:
       argparse: 2.0.1
@@ -2221,4 +2221,4 @@ shrinkwrapVersion: 3
 specifiers:
   '@11ty/eleventy': ^1.0.0
   eleventy-plugin-seo: 0.5.2
-  luxon: ^3.1.1
+  luxon: ^3.2.0
