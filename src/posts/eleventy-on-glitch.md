@@ -23,4 +23,3 @@ Each blog post lives in the `posts` folder–take a look at one by opening it in
 * Each post contains __front matter__ defining metadata such as the date, title, and layout
 
 Layouts for your site are in `_includes`–your pages and posts can use these to define an outline structure their content is containined within.
-a
