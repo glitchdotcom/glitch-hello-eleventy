@@ -4,6 +4,8 @@ This project is a blog powered by [Eleventy](https://www.11ty.dev/), a lightweig
 
 _While you're working on the content in the editor your changes will happen ✨ immediately in the preview window. As you code the site is serving files from a local build directory. When you close the editor your site will run a `build` script then serve the output as a fast and always-on static site._
 
+_Last updated: 4 Jan 2023_
+
 ## Prerequisites
 
 You'll get best use out of this project if you're familiar with basic HTML and JavaScript. This is a static site, which means the server builds it using the content of the `src` folder, then is able to serve it to your users quickly. The posts are in Markdown, which is similar to HTML (markup) but with a lot less syntax!
