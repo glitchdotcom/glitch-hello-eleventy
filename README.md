@@ -4,7 +4,7 @@ This project is a blog powered by [Eleventy](https://www.11ty.dev/), a lightweig
 
 _While you're working on the content in the editor your changes will happen ✨ immediately in the preview window. As you code the site is serving files from a local build directory. When you close the editor your site will run a `build` script then serve the output as a fast and always-on static site._
 
-_Last updated: 9 Feb 2023_
+_Last updated: 20 Mar 2023_
 
 ## Prerequisites
 
@@ -50,6 +50,6 @@ Check out `TODO.md` for some more optional next steps.
 
 [Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.
 
-- Want more details about Eleventy on Glitch? We've got a [Help Center article](https://help.glitch.com/kb/article/111) just for that.
+- Want more details about Eleventy on Glitch? We've got a [Help Center article](https://help.glitch.com/hc/en-us/articles/16287563161229-Eleventy-Projects) just for that.
 - Need more help? [Check out our Help Center](https://help.glitch.com/) for answers to any common questions.
 - Ready to make it official? [Become a paid Glitch member](https://glitch.com/pricing) to boost your app with private sharing, more storage and memory, domains and more.
