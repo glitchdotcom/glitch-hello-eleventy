@@ -4,7 +4,7 @@ This project is a blog powered by [Eleventy](https://www.11ty.dev/), a lightweig
 
 _While you're working on the content in the editor your changes will happen ✨ immediately in the preview window. As you code the site is serving files from a local build directory. When you close the editor your site will run a `build` script then serve the output as a fast and always-on static site._
 
-_Last updated: 27 June 2023_
+_Last updated: 14 August 2023_
 
 ## Prerequisites
 
