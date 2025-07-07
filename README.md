@@ -1,5 +1,7 @@
 # Hello Eleventy!
 
+> ⚠️🚨 **Glitch project hosting shuts down on 8th July 2025. This repo contains the source code for the Glitch Hello Eleventy starter app – this project is no longer maintained by the Glitch team, but you are welcome to grab the code and use it somewhere else!**
+
 This project is a blog powered by [Eleventy](https://www.11ty.dev/), a lightweight static site generator. That means you get all the power of a server-side framework but it builds plain HTML files for fast loading by your visitors. This project includes some default posts and layouts you can use as a foundation, and you can customize how your site builds in the JavaScript code. 📚
 
 _While you're working on the content in the editor your changes will happen ✨ immediately in the preview window. As you code the site is serving files from a local build directory. When you close the editor your site will run a `build` script then serve the output as a fast and always-on static site._
